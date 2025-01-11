@@ -1,0 +1,8 @@
+[package]
+name = "bevy_mutually_exclusive_components"
+version = "0.1.0"
+edition = "2021"
+authors = ["Richard Jones <rj@metabrew.com>"]
+
+[dependencies]
+bevy = { version = "0.15", default-features = false }
