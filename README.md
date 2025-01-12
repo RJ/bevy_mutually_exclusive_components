@@ -50,4 +50,10 @@ The `LastMutuallyExclusiveId` component takes a const generic u32, which is how 
 
 ## Caution
 
-Don't put the same component into multiple groups or things will get very confusing, i think.
+Components can only have one hook, so it'll panic if you try to add a component to multiple groups.
+
+It will also panic if a component already has a hook for another reason.
+
+## License
+
+Same as bevy
